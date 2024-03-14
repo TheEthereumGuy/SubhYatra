@@ -5,6 +5,7 @@ import {
   FaLinkedin,
   FaLocationArrow,
   FaMobileAlt,
+  FaWhatsapp,
 } from "react-icons/fa";
 
 const FooterLinks = [
@@ -33,7 +34,7 @@ const Footer = () => {
           {/* company Details */}
           <div className=" py-8 px-4 ">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3 font-serif">
-              Car Rental
+              Subh Yatra Travels
             </h1>
             <p className="text-sm">
               Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet
@@ -42,7 +43,7 @@ const Footer = () => {
             <br />
             <div className="flex items-center gap-3">
               <FaLocationArrow />
-              <p>Noida, Uttar Pradesh</p>
+              <p>Bhubnesswar, Odisha</p>
             </div>
             <div className="flex items-center gap-3 mt-3">
               <FaMobileAlt />
@@ -50,14 +51,14 @@ const Footer = () => {
             </div>
             {/* Social Handle */}
             <div className="flex items-center gap-3 mt-6">
-              <a href="#">
+              <a href="https://www.instagram.com/subh_.yatra/">
                 <FaInstagram className="text-3xl hover:text-primary duration-300" />
               </a>
               <a href="#">
                 <FaFacebook className="text-3xl hover:text-primary duration-300" />
               </a>
-              <a href="#">
-                <FaLinkedin className="text-3xl hover:text-primary duration-300" />
+              <a href="https://api.whatsapp.com/send?phone=9692166127&text=Hello!%20This%20is%20a%20direct%20message%20from%20my%20app.">
+                <FaWhatsapp className="text-3xl hover:text-primary duration-300" />
               </a>
             </div>
           </div>

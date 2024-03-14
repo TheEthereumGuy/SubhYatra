@@ -35,8 +35,7 @@ const Hero = ({ theme }) => {
               Car Rental
             </h1>
             <p data-aos="fade-up" data-aos-delay="1000">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-              veritatis explicabo quibusdam quae reprehenderit ab{" "}
+              Book Premium cars for weddings and events <br />and make it more memorable. Luxurious <br /> cars available at your door step. {" "}
             </p>
             <button
               data-aos="fade-up"

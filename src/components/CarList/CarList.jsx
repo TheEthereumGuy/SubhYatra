@@ -5,20 +5,20 @@ import car3 from "../../assets/car6.png";
 
 const carList = [
   {
-    name: "BMW UX",
-    price: 100,
+    name: "MERCEDES",
+    price: 5000,
     image: whiteCar,
     aosDelay: "0",
   },
   {
-    name: "KIA UX",
-    price: 140,
+    name: "MAHENDRA BOLERO",
+    price: 9000,
     image: car2,
     aosDelay: "500",
   },
   {
-    name: "BMW UX",
-    price: 100,
+    name: "MAHENDRA XUV",
+    price: 10000,
     image: car3,
     aosDelay: "1000",
   },
@@ -33,11 +33,12 @@ const CarList = () => {
           data-aos="fade-up"
           className="text-3xl sm:text-4xl font-semibold font-serif mb-3"
         >
-          Lorem ipsum dolor
+          Unleash Luxury: <br />
+          Explore Our Premium Fleet.
         </h1>
         <p data-aos="fade-up" aos-delay="400" className="text-sm pb-10">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iure
-          nemo ab?
+        Drive the Dream: Where Premium Meets Performance!
+          {/* Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iurenemo ab? */}
         </p>
         {/* Car listing */}
         <div>
@@ -58,7 +59,7 @@ const CarList = () => {
                 <div className="space-y-2">
                   <h1 className="text-primary font-semibold">{data.name}</h1>
                   <div className="flex justify-between items-center text-xl font-semibold">
-                    <p>${data.price}/Day</p>
+                    <p> ₹{data.price}/Day</p>
                     <a href="#">Details</a>
                   </div>
                 </div>
